@@ -186,11 +186,11 @@ nav a{
     justify-content: space-between;
 }
 
-.articlecard section{
+.articlecard article{
     flex-grow: 1;
 }
 
-.articlecard section img{
+.articlecard img{
     max-width: 692px;
     width: 50%;
     min-width: 200px;
