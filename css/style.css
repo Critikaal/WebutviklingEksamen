@@ -1,0 +1,212 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    max-width:1600px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 75px;
+}
+
+nav a{
+    padding-bottom: 0.08rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.current{
+    font-weight: 1000;
+    padding-bottom: 0.08rem;
+    border-bottom: 0.15rem solid #e6bd43;
+}
+
+
+#headline1{
+    background-color: #d9d9d9;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+#headline1 p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#about1{
+    border: #000 solid 0.3rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+#about1 p{
+    padding-bottom: 2rem;
+    margin-left:2rem;
+    width: 50%;
+}
+
+#about1 h2{
+    margin-left:2rem;
+}
+
+#about1 a{
+    margin-left:2rem;
+}
+
+#about2 {
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0rem;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+#about2 section{
+    text-align: left;
+    width: 50%;
+    align-items: end;
+    background-color: #fff;
+    padding: 2rem 3rem 4rem 3rem;
+}
+#portfolio{
+    align-items: center; 
+    padding: 5rem 0rem;
+    width: 100%;
+    text-align: center;
+    background-color: #d9d9d9;
+    background-image: url('phones.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#port_text h1{
+    background-color: #d9d9d9;
+    opacity: 1;
+}
+
+.flex section{
+    display: flex;
+    align-items:center;
+}
+.center{
+    margin: auto;
+    text-align: center;
+}
+.center img{
+    padding: 0rem 1rem;
+}
+
+#services{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#newsletter{
+    background-color: #f4f1f1;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+#email{
+    padding: 0.65rem;
+    border: none;
+}
+
+#contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#message{
+    width: 35%;
+}
+
+#contact{
+    width: 35%;
+}
+
+.input{
+    padding: 0.65rem;
+    border: none;
+}
+
+.button{
+    border: #000 solid 0.15rem;
+    text-decoration: none;
+    padding: 0.7rem 0.5rem;
+    color: #000;
+}
+
+.yellow{
+    background-color: #e6bd43;
+    border: none;
+}
+
+.small{
+    font-size: 0.8rem;
+}
+
+.port_sect{
+    margin-left: 1rem;
+}
+
+.port_sect h2{
+    border-bottom: #e6bd43 solid 0.2rem;
+    margin-bottom: 3rem;
+}
+
+.articlecard{
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articlecard section{
+    flex-grow: 1;
+}
+
+.articlecard section img{
+    max-width: 692px;
+    width: 50%;
+    min-width: 200px;
+}
+
+footer{
+    background-color: #252525;
+    color: #fff;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    color: #fff;
+    margin: 2px;
+    text-decoration: none;
+}
