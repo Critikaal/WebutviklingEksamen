@@ -29,6 +29,9 @@ nav a{
     border-bottom: 0.15rem solid #e6bd43;
 }
 
+#services i{
+    font-size: 30px;
+}
 
 #headline1{
     background-color: #d9d9d9;
@@ -75,31 +78,37 @@ nav a{
     width: 100%;
     padding: 3rem 0rem;
     text-align: center;
-    background-color: #d9d9d9;
+    background-color: #d9d9d9; 
 }
 
 #about2 section{
     text-align: left;
     width: 50%;
-    align-items: end;
     background-color: #fff;
     padding: 2rem 3rem 4rem 3rem;
+    margin-left: auto;
+    margin-right: 30px;
 }
+#about2 section p{
+    margin-bottom: 30px;
+}
+
 #portfolio{
     align-items: center; 
     padding: 5rem 0rem;
     width: 100%;
     text-align: center;
     background-color: #d9d9d9;
+
+    /* funnet her: https://www.w3schools.com/css/css_background_image.asp, endte opp med å ikke bruke fordi jeg fikk ikke til opacity uten at teksten også ble mer gjennomsiktig
     background-image: url('phones.png');
+
     background-size: 100%;
     background-repeat: no-repeat;
-    opacity: 0.5;
-}
 
-#port_text h1{
-    background-color: #d9d9d9;
-    opacity: 1;
+    Funnet her: https://www.w3schools.com/css/css_image_transparency.asp,
+    brukte ikke fordi jeg ikke fikk til å bruke opacity på kun bakgrunnen og ikke teksten.
+    opacity: 0.5; */
 }
 
 .flex section{
@@ -136,8 +145,6 @@ nav a{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 1rem;
-    margin-bottom: 1rem;
 }
 
 #message{
@@ -146,6 +153,11 @@ nav a{
 
 #contact{
     width: 35%;
+}
+
+#contact i{
+    font-size: 15px;
+    margin: 7px 0px;
 }
 
 .input{
@@ -191,8 +203,7 @@ nav a{
 }
 
 .articlecard img{
-    max-width: 692px;
-    width: 50%;
+    max-width: 350px;
     min-width: 200px;
 }
 
@@ -209,4 +220,9 @@ footer a{
     color: #fff;
     margin: 2px;
     text-decoration: none;
+}
+
+footer i{
+    font-size: 20px;
+    margin: 0px 5px;
 }
